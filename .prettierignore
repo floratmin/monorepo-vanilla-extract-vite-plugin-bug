@@ -1,0 +1,9 @@
+.nx
+.secrets
+node_modules
+coverage
+data
+dist
+docker
+media
+volumes

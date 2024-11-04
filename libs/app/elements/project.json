@@ -1,0 +1,31 @@
+{
+  "name": "app-elements",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/app/elements/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/vite:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/app/elements",
+        "main": "libs/app/elements/src/index.ts",
+        "tsConfig": "libs/app/elements/tsconfig.lib.json",
+        "assets": ["libs/app/elements/*.md"]
+      }
+    },
+    "storybook": {
+      "executor": "@nx/storybook:storybook",
+      "options": {
+        "port": 4400,
+        "configDir": "libs/app/elements/.storybook"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "page-app",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build"
+  },
+  "devDependencies": {
+    "@solidjs/router": "^0.15.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "page-app",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/page/app/src",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project page-app --web",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm run dev",
+        "cwd": "apps/page/app"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "pnpm run build",
+        "cwd": "apps/page/app"
+      }
+    }
+  }
+}

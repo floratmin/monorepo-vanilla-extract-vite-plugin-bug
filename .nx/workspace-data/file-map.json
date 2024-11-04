@@ -1,0 +1,414 @@
+{
+  "version": "6.0",
+  "nxVersion": "20.0.7",
+  "pathMappings": {
+    "@workspace/app-css": [
+      "libs/app/css/src/index.ts"
+    ],
+    "@workspace/app-elements": [
+      "libs/app/elements/src/index.ts"
+    ]
+  },
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/vite/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "testTargetName": "test",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "serveStaticTargetName": "serve-static",
+        "typecheckTargetName": "typecheck"
+      }
+    },
+    {
+      "name": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "13308668320693420279"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "12060734207993778635"
+      },
+      {
+        "file": "configs/typescript/tsconfig.jsx.json",
+        "hash": "8022831394158746812"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3074149823093194733"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4573083877483127459"
+      },
+      {
+        "file": "package.json",
+        "hash": "18399412727394378021"
+      },
+      {
+        "file": "configs/typescript/tsconfig.jsx.spec.json",
+        "hash": "16944061214583153291"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "configs/typescript/tsconfig.jsx.app.json",
+        "hash": "1564029033576357137"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "README.md",
+        "hash": "6800693425928675652"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "7003804569943382873"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "2627861594816618330"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "1880664178033616490"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "2627861594816618330"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".nxignore",
+        "hash": "11876684090962387098"
+      }
+    ],
+    "projectFileMap": {
+      "app-css": [
+        {
+          "file": "libs/app/css/.eslintrc.json",
+          "hash": "16363336924936389730"
+        },
+        {
+          "file": "libs/app/css/README.md",
+          "hash": "4101410288078485226"
+        },
+        {
+          "file": "libs/app/css/package.json",
+          "hash": "1260720033719755354"
+        },
+        {
+          "file": "libs/app/css/project.json",
+          "hash": "10557667005973511402"
+        },
+        {
+          "file": "libs/app/css/src/index.ts",
+          "hash": "6244272709732074484"
+        },
+        {
+          "file": "libs/app/css/src/lib/styles.css.ts",
+          "hash": "9181237378668873031",
+          "deps": [
+            "npm:@vanilla-extract/css",
+            "npm:open-props"
+          ]
+        },
+        {
+          "file": "libs/app/css/tsconfig.json",
+          "hash": "13917704873805999041"
+        },
+        {
+          "file": "libs/app/css/tsconfig.lib.json",
+          "hash": "11181496964727843086"
+        },
+        {
+          "file": "libs/app/css/tsconfig.spec.json",
+          "hash": "13690617222292166634"
+        },
+        {
+          "file": "libs/app/css/vite.config.ts",
+          "hash": "2394238746937624023",
+          "deps": [
+            "npm:vite",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite",
+            "npm:vite-plugin-solid",
+            "npm:@vanilla-extract/vite-plugin"
+          ]
+        }
+      ],
+      "page-app": [
+        {
+          "file": "apps/page/app/.eslintrc.json",
+          "hash": "9703569748258640057"
+        },
+        {
+          "file": "apps/page/app/app.config.ts",
+          "hash": "4141724175271648099",
+          "deps": [
+            "npm:@solidjs/start",
+            "npm:@nx/vite",
+            "npm:@vanilla-extract/vite-plugin"
+          ]
+        },
+        {
+          "file": "apps/page/app/package.json",
+          "hash": "15203333958842156461",
+          "deps": [
+            "npm:@solidjs/router"
+          ]
+        },
+        {
+          "file": "apps/page/app/pnpm-lock.yaml",
+          "hash": "9055771796559505901"
+        },
+        {
+          "file": "apps/page/app/project.json",
+          "hash": "3652815968132799330"
+        },
+        {
+          "file": "apps/page/app/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/page/app/src/app.css",
+          "hash": "13494180809951409032"
+        },
+        {
+          "file": "apps/page/app/src/app.tsx",
+          "hash": "3028150983881370617",
+          "deps": [
+            "npm:@solidjs/meta",
+            "npm:@solidjs/router",
+            "npm:@solidjs/start",
+            "npm:solid-js"
+          ]
+        },
+        {
+          "file": "apps/page/app/src/components/Counter.css",
+          "hash": "16176712535805903405"
+        },
+        {
+          "file": "apps/page/app/src/components/Counter.css.ts",
+          "hash": "6485280567607758539",
+          "deps": [
+            "npm:@vanilla-extract/css"
+          ]
+        },
+        {
+          "file": "apps/page/app/src/components/Counter.tsx",
+          "hash": "60998678251783965",
+          "deps": [
+            "npm:solid-js",
+            "app-elements"
+          ]
+        },
+        {
+          "file": "apps/page/app/src/entry-client.tsx",
+          "hash": "18128018116857842663",
+          "deps": [
+            "npm:@solidjs/start"
+          ]
+        },
+        {
+          "file": "apps/page/app/src/entry-server.tsx",
+          "hash": "4694539601929138798",
+          "deps": [
+            "npm:@solidjs/start"
+          ]
+        },
+        {
+          "file": "apps/page/app/src/global.d.ts",
+          "hash": "991184631304872013"
+        },
+        {
+          "file": "apps/page/app/src/routes/[...404].tsx",
+          "hash": "10755087679189515207",
+          "deps": [
+            "npm:@solidjs/meta",
+            "npm:@solidjs/start"
+          ]
+        },
+        {
+          "file": "apps/page/app/src/routes/about.tsx",
+          "hash": "12441895230431367177",
+          "deps": [
+            "npm:@solidjs/meta"
+          ]
+        },
+        {
+          "file": "apps/page/app/src/routes/index.tsx",
+          "hash": "12411570774958057523",
+          "deps": [
+            "npm:@solidjs/meta"
+          ]
+        },
+        {
+          "file": "apps/page/app/tsconfig.app.json",
+          "hash": "2064979838253283050"
+        },
+        {
+          "file": "apps/page/app/tsconfig.json",
+          "hash": "6088281824717429549"
+        },
+        {
+          "file": "apps/page/app/tsconfig.spec.json",
+          "hash": "13833303990508417738"
+        }
+      ],
+      "app-elements": [
+        {
+          "file": "libs/app/elements/.eslintrc.json",
+          "hash": "16363336924936389730"
+        },
+        {
+          "file": "libs/app/elements/README.md",
+          "hash": "5517223043213694005"
+        },
+        {
+          "file": "libs/app/elements/package.json",
+          "hash": "10023876816723501591"
+        },
+        {
+          "file": "libs/app/elements/project.json",
+          "hash": "2577409482156590380"
+        },
+        {
+          "file": "libs/app/elements/src/index.ts",
+          "hash": "13023336547149103757"
+        },
+        {
+          "file": "libs/app/elements/src/lib/Button.css.ts",
+          "hash": "357350296312936976",
+          "deps": [
+            "npm:@vanilla-extract/css",
+            "app-css"
+          ]
+        },
+        {
+          "file": "libs/app/elements/src/lib/Button.tsx",
+          "hash": "7785001238214948622",
+          "deps": [
+            "npm:solid-js",
+            "app-css"
+          ]
+        },
+        {
+          "file": "libs/app/elements/tsconfig.json",
+          "hash": "13917704873805999041"
+        },
+        {
+          "file": "libs/app/elements/tsconfig.lib.json",
+          "hash": "11181496964727843086"
+        },
+        {
+          "file": "libs/app/elements/tsconfig.spec.json",
+          "hash": "13690617222292166634"
+        },
+        {
+          "file": "libs/app/elements/vite.config.ts",
+          "hash": "16817821690905179258",
+          "deps": [
+            "npm:vite",
+            "npm:vite-plugin-dts",
+            "npm:@nx/vite",
+            "npm:vite-plugin-solid",
+            "npm:@vanilla-extract/vite-plugin"
+          ]
+        }
+      ],
+      "tool-app": [
+        {
+          "file": "apps/tool/app/.eslintrc.json",
+          "hash": "9703569748258640057"
+        },
+        {
+          "file": "apps/tool/app/.swcrc",
+          "hash": "9921579498929141427"
+        },
+        {
+          "file": "apps/tool/app/index.html",
+          "hash": "1330057001926643857"
+        },
+        {
+          "file": "apps/tool/app/project.json",
+          "hash": "14059649404908341261"
+        },
+        {
+          "file": "apps/tool/app/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "apps/tool/app/src/App.css.ts",
+          "hash": "16904838951759934087",
+          "deps": [
+            "npm:@vanilla-extract/css"
+          ]
+        },
+        {
+          "file": "apps/tool/app/src/App.tsx",
+          "hash": "7150583788353559422",
+          "deps": [
+            "app-elements",
+            "npm:solid-js"
+          ]
+        },
+        {
+          "file": "apps/tool/app/src/index.tsx",
+          "hash": "14737727804030693751",
+          "deps": [
+            "npm:solid-js"
+          ]
+        },
+        {
+          "file": "apps/tool/app/tsconfig.app.json",
+          "hash": "2064979838253283050"
+        },
+        {
+          "file": "apps/tool/app/tsconfig.json",
+          "hash": "6088281824717429549"
+        },
+        {
+          "file": "apps/tool/app/tsconfig.spec.json",
+          "hash": "13833303990508417738"
+        },
+        {
+          "file": "apps/tool/app/vite.config.ts",
+          "hash": "4852816481132906437",
+          "deps": [
+            "npm:vite",
+            "npm:@nx/vite",
+            "npm:vite-plugin-solid",
+            "npm:@vanilla-extract/vite-plugin"
+          ]
+        }
+      ]
+    }
+  }
+}

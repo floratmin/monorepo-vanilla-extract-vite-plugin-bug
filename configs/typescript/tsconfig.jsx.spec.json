@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.jsx.json",
+  "compilerOptions": {
+    "outDir": "../../dist/out-tsc",
+    "types": [
+      "vitest/globals",
+      "vitest/importMeta",
+      "vite/client",
+      "vinxi/types/client",
+      "node",
+      "vitest",
+      "@testing-library/jest-dom"
+    ]
+  }
+}

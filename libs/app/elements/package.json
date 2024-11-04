@@ -1,0 +1,13 @@
+{
+  "name": "@workspace/app-elements",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {},
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "typings": "./dist/index.d.ts",
+  "private": true,
+  "nx": {
+    "name": "elements"
+  }
+}
