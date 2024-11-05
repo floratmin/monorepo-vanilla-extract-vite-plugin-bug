@@ -37,44 +37,36 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": "vitest.workspace.ts",
-        "hash": "7870362608836821141"
+        "file": "configs/typescript/tsconfig.jsx.spec.json",
+        "hash": "16944061214583153291"
       },
       {
         "file": ".eslintrc.json",
         "hash": "13308668320693420279"
       },
       {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
         "file": "pnpm-lock.yaml",
         "hash": "12060734207993778635"
-      },
-      {
-        "file": "configs/typescript/tsconfig.jsx.json",
-        "hash": "8022831394158746812"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "3074149823093194733"
       },
       {
         "file": "nx.json",
         "hash": "4573083877483127459"
       },
       {
-        "file": "package.json",
-        "hash": "18399412727394378021"
+        "file": ".eslintignore",
+        "hash": "2627861594816618330"
       },
       {
-        "file": "configs/typescript/tsconfig.jsx.spec.json",
-        "hash": "16944061214583153291"
+        "file": "tsconfig.base.json",
+        "hash": "7003804569943382873"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": "configs/typescript/tsconfig.jsx.app.json",
-        "hash": "1564029033576357137"
+        "file": ".gitignore",
+        "hash": "869031975802381494"
       },
       {
         "file": ".prettierrc",
@@ -85,28 +77,36 @@
         "hash": "6800693425928675652"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "7003804569943382873"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "2627861594816618330"
+        "file": ".nxignore",
+        "hash": "11876684090962387098"
       },
       {
         "file": ".npmrc",
         "hash": "1880664178033616490"
       },
       {
+        "file": "configs/typescript/tsconfig.jsx.json",
+        "hash": "8022831394158746812"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
         "file": ".prettierignore",
         "hash": "2627861594816618330"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
       },
       {
-        "file": ".nxignore",
-        "hash": "11876684090962387098"
+        "file": "package.json",
+        "hash": "18399412727394378021"
+      },
+      {
+        "file": "configs/typescript/tsconfig.jsx.app.json",
+        "hash": "1564029033576357137"
       }
     ],
     "projectFileMap": {
@@ -179,9 +179,145 @@
         },
         {
           "file": "apps/page/app/package.json",
-          "hash": "15203333958842156461",
+          "hash": "10934315453809038571",
           "deps": [
-            "npm:@solidjs/router"
+            "npm:@fastify/cookie",
+            "npm:@fastify/cors",
+            "npm:@fastify/env",
+            "npm:@fastify/formbody",
+            "npm:@fastify/helmet",
+            "npm:@fastify/multipart",
+            "npm:@fastify/postgres",
+            "npm:@fastify/rate-limit",
+            "npm:@fastify/redis",
+            "npm:@fastify/secure-session",
+            "npm:@fastify/sensible",
+            "npm:@fastify/session",
+            "npm:@fastify/swagger",
+            "npm:@fastify/swagger-ui",
+            "npm:@fastify/under-pressure",
+            "npm:@kobalte/core",
+            "npm:@messageformat/core",
+            "npm:@messageformat/runtime",
+            "npm:@modular-forms/solid",
+            "npm:@noble/hashes",
+            "npm:@rnwonder/solid-date-picker",
+            "npm:@solid-primitives/media",
+            "npm:@solid-primitives/storage",
+            "npm:@solidjs/router",
+            "npm:@thisbeyond/solid-dnd",
+            "npm:@vanilla-extract/css",
+            "npm:@vanilla-extract/recipes",
+            "npm:@vanilla-extract/sprinkles",
+            "npm:ajv",
+            "npm:ajv-errors",
+            "npm:arktype",
+            "npm:bowser",
+            "npm:connect-redis",
+            "npm:date-time-picker-solid",
+            "npm:fastify",
+            "npm:fastify-plugin",
+            "npm:highlight.js",
+            "npm:iovalkey",
+            "npm:lucide-solid",
+            "npm:open-props",
+            "npm:pg",
+            "npm:redis",
+            "npm:sodium-native",
+            "npm:solid-js",
+            "npm:solid-markdown",
+            "npm:solid-marked",
+            "npm:tslib",
+            "npm:valibot",
+            "npm:@kobalte/vanilla-extract",
+            "npm:@nx/devkit",
+            "npm:@nx/esbuild",
+            "npm:@nx/eslint",
+            "npm:@nx/eslint-plugin",
+            "npm:@nx/jest",
+            "npm:@nx/js",
+            "npm:@nx/node",
+            "npm:@nx/playwright",
+            "npm:@nx/rollup",
+            "npm:@nx/storybook",
+            "npm:@nx/vite",
+            "npm:@nx/web",
+            "npm:@nx/workspace",
+            "npm:@playwright/test",
+            "npm:@rollup/plugin-node-resolve",
+            "npm:@solidjs/meta",
+            "npm:@solidjs/start",
+            "npm:@solidjs/testing-library",
+            "npm:@storybook/addon-a11y",
+            "npm:@storybook/addon-essentials",
+            "npm:@storybook/addon-interactions",
+            "npm:@storybook/addon-links",
+            "npm:@storybook/blocks",
+            "npm:@storybook/builder-vite",
+            "npm:@storybook/cli",
+            "npm:@storybook/core-server",
+            "npm:@storybook/docs-tools",
+            "npm:@storybook/global",
+            "npm:@storybook/icons",
+            "npm:@storybook/manager-api",
+            "npm:@storybook/preview-api",
+            "npm:@storybook/test",
+            "npm:@storybook/test-runner",
+            "npm:@storybook/theming",
+            "npm:@swc-node/register",
+            "npm:@swc/core",
+            "npm:@swc/helpers",
+            "npm:@swc/jest",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/user-event",
+            "npm:@types/estree",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/subset-font",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:@vanilla-extract/vite-plugin",
+            "npm:@vitejs/plugin-legacy",
+            "npm:@vitest/coverage-v8",
+            "npm:@vitest/ui",
+            "npm:chalk",
+            "npm:env-cmd",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-redos-detector",
+            "npm:estree-walker",
+            "npm:ioredis",
+            "npm:jsdom",
+            "npm:json-schema-to-ts",
+            "npm:magic-string",
+            "npm:memfs",
+            "npm:nx",
+            "npm:playwright",
+            "npm:prettier",
+            "npm:rollup",
+            "npm:rollup-plugin-messageformat",
+            "npm:rollup-plugin-node-externals",
+            "npm:sass",
+            "npm:shiki",
+            "npm:storybook",
+            "npm:storybook-solidjs",
+            "npm:storybook-solidjs-vite",
+            "npm:subset-font",
+            "npm:swc-loader",
+            "npm:terser",
+            "npm:ts-jest",
+            "npm:ts-node",
+            "npm:tsx",
+            "npm:typescript",
+            "npm:unplugin-solid-marked",
+            "npm:vinxi",
+            "npm:vite",
+            "npm:vite-plugin-dts",
+            "npm:vite-plugin-node",
+            "npm:vite-plugin-restart",
+            "npm:vite-plugin-solid",
+            "npm:vite-plugin-static-copy",
+            "npm:vitest"
           ]
         },
         {
@@ -282,67 +418,6 @@
           "hash": "13833303990508417738"
         }
       ],
-      "app-elements": [
-        {
-          "file": "libs/app/elements/.eslintrc.json",
-          "hash": "16363336924936389730"
-        },
-        {
-          "file": "libs/app/elements/README.md",
-          "hash": "5517223043213694005"
-        },
-        {
-          "file": "libs/app/elements/package.json",
-          "hash": "10023876816723501591"
-        },
-        {
-          "file": "libs/app/elements/project.json",
-          "hash": "2577409482156590380"
-        },
-        {
-          "file": "libs/app/elements/src/index.ts",
-          "hash": "13023336547149103757"
-        },
-        {
-          "file": "libs/app/elements/src/lib/Button.css.ts",
-          "hash": "357350296312936976",
-          "deps": [
-            "npm:@vanilla-extract/css",
-            "app-css"
-          ]
-        },
-        {
-          "file": "libs/app/elements/src/lib/Button.tsx",
-          "hash": "7785001238214948622",
-          "deps": [
-            "npm:solid-js",
-            "app-css"
-          ]
-        },
-        {
-          "file": "libs/app/elements/tsconfig.json",
-          "hash": "13917704873805999041"
-        },
-        {
-          "file": "libs/app/elements/tsconfig.lib.json",
-          "hash": "11181496964727843086"
-        },
-        {
-          "file": "libs/app/elements/tsconfig.spec.json",
-          "hash": "13690617222292166634"
-        },
-        {
-          "file": "libs/app/elements/vite.config.ts",
-          "hash": "16817821690905179258",
-          "deps": [
-            "npm:vite",
-            "npm:vite-plugin-dts",
-            "npm:@nx/vite",
-            "npm:vite-plugin-solid",
-            "npm:@vanilla-extract/vite-plugin"
-          ]
-        }
-      ],
       "tool-app": [
         {
           "file": "apps/tool/app/.eslintrc.json",
@@ -403,6 +478,67 @@
           "hash": "4852816481132906437",
           "deps": [
             "npm:vite",
+            "npm:@nx/vite",
+            "npm:vite-plugin-solid",
+            "npm:@vanilla-extract/vite-plugin"
+          ]
+        }
+      ],
+      "app-elements": [
+        {
+          "file": "libs/app/elements/.eslintrc.json",
+          "hash": "16363336924936389730"
+        },
+        {
+          "file": "libs/app/elements/README.md",
+          "hash": "5517223043213694005"
+        },
+        {
+          "file": "libs/app/elements/package.json",
+          "hash": "10023876816723501591"
+        },
+        {
+          "file": "libs/app/elements/project.json",
+          "hash": "2577409482156590380"
+        },
+        {
+          "file": "libs/app/elements/src/index.ts",
+          "hash": "13023336547149103757"
+        },
+        {
+          "file": "libs/app/elements/src/lib/Button.css.ts",
+          "hash": "357350296312936976",
+          "deps": [
+            "npm:@vanilla-extract/css",
+            "app-css"
+          ]
+        },
+        {
+          "file": "libs/app/elements/src/lib/Button.tsx",
+          "hash": "7785001238214948622",
+          "deps": [
+            "npm:solid-js",
+            "app-css"
+          ]
+        },
+        {
+          "file": "libs/app/elements/tsconfig.json",
+          "hash": "13917704873805999041"
+        },
+        {
+          "file": "libs/app/elements/tsconfig.lib.json",
+          "hash": "11181496964727843086"
+        },
+        {
+          "file": "libs/app/elements/tsconfig.spec.json",
+          "hash": "13690617222292166634"
+        },
+        {
+          "file": "libs/app/elements/vite.config.ts",
+          "hash": "16817821690905179258",
+          "deps": [
+            "npm:vite",
+            "npm:vite-plugin-dts",
             "npm:@nx/vite",
             "npm:vite-plugin-solid",
             "npm:@vanilla-extract/vite-plugin"
