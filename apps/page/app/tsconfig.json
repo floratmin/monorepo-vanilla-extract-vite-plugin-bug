@@ -1,12 +1,50 @@
 {
-  "extends": "../../../tsconfig.base.json",
-  "files": [],
-  "references": [
-    {
-      "path": "./tsconfig.app.json"
+  "exclude": [
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts",
+    "src/**/*.spec.tsx",
+    "src/**/*.test.tsx"
+  ],
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "types/**/*.d.ts",
+    "src/**/*.md"
+  ],
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "resolveJsonModule": true,
+    "rootDir": "../../..",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "useUnknownInCatchVariables": true,
+    "paths": {
+      "@studynaut/app-css": ["../../../libs/app/css/src/index.ts"],
+      "@studynaut/app-elements": ["../../../libs/app/elements/src/index.ts"]
     },
-    {
-      "path": "./tsconfig.spec.json"
-    }
-  ]
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ES2022",
+    "declaration": false,
+    "outDir": "../../dist/out-tsc",
+    "types": ["vite/client", "solid-marked", "vinxi/types/client"]
+  },
 }

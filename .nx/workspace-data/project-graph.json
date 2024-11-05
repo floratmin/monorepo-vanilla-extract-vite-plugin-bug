@@ -20710,17 +20710,127 @@
       },
       {
         "source": "page-app",
+        "target": "npm:@fastify/cookie",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/cors",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/env",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/formbody",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/helmet",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/multipart",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/postgres",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/rate-limit",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/redis",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/secure-session",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/sensible",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/session",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/swagger",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/swagger-ui",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@fastify/under-pressure",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@kobalte/core",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@messageformat/core",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@messageformat/runtime",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@modular-forms/solid",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@noble/hashes",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@rnwonder/solid-date-picker",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@solid-primitives/media",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@solid-primitives/storage",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
         "target": "npm:@solidjs/router",
         "type": "static"
       },
       {
         "source": "page-app",
-        "target": "npm:@solidjs/meta",
-        "type": "static"
-      },
-      {
-        "source": "page-app",
-        "target": "npm:solid-js",
+        "target": "npm:@thisbeyond/solid-dnd",
         "type": "static"
       },
       {
@@ -20730,7 +20840,542 @@
       },
       {
         "source": "page-app",
-        "target": "app-elements",
+        "target": "npm:@vanilla-extract/recipes",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@vanilla-extract/sprinkles",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:ajv",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:ajv-errors",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:arktype",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:bowser",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:connect-redis",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:date-time-picker-solid",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:fastify",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:fastify-plugin",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:highlight.js",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:iovalkey",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:lucide-solid",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:open-props",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:pg",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:redis",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:sodium-native",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:solid-js",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:solid-markdown",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:solid-marked",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:tslib",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:valibot",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@kobalte/vanilla-extract",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/devkit",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/esbuild",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/eslint",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/jest",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/js",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/node",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/playwright",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/rollup",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/storybook",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/web",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@nx/workspace",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@playwright/test",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@rollup/plugin-node-resolve",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@solidjs/meta",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@solidjs/testing-library",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/addon-a11y",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/addon-essentials",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/addon-interactions",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/addon-links",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/blocks",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/builder-vite",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/cli",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/core-server",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/docs-tools",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/global",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/icons",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/manager-api",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/preview-api",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/test",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/test-runner",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@storybook/theming",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@swc-node/register",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@swc/core",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@swc/helpers",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@swc/jest",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@testing-library/jest-dom",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@testing-library/user-event",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@types/estree",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@types/jest",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@types/node",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@types/subset-font",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@typescript-eslint/eslint-plugin",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@typescript-eslint/parser",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@vitejs/plugin-legacy",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@vitest/coverage-v8",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:@vitest/ui",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:chalk",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:env-cmd",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:eslint",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:eslint-config-prettier",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:eslint-plugin-redos-detector",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:estree-walker",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:ioredis",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:jsdom",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:json-schema-to-ts",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:magic-string",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:memfs",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:nx",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:playwright",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:prettier",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:rollup",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:rollup-plugin-messageformat",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:rollup-plugin-node-externals",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:sass",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:shiki",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:storybook",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:storybook-solidjs",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:storybook-solidjs-vite",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:subset-font",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:swc-loader",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:terser",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:ts-jest",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:ts-node",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:tsx",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:typescript",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:unplugin-solid-marked",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:vinxi",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:vite-plugin-dts",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:vite-plugin-node",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:vite-plugin-restart",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:vite-plugin-solid",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:vite-plugin-static-copy",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
+        "target": "npm:vitest",
         "type": "static"
       }
     ],

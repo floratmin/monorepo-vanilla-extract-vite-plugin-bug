@@ -4,7 +4,6 @@
   "projectType": "application",
   "sourceRoot": "apps/page/app/src",
   "tags": [],
-  "// targets": "to see all targets run: nx show project page-app --web",
   "targets": {
     "serve": {
       "executor": "nx:run-commands",
