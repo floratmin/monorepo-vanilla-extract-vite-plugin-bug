@@ -20710,6 +20710,11 @@
       },
       {
         "source": "page-app",
+        "target": "npm:vite",
+        "type": "static"
+      },
+      {
+        "source": "page-app",
         "target": "npm:@fastify/cookie",
         "type": "static"
       },
@@ -21341,11 +21346,6 @@
       {
         "source": "page-app",
         "target": "npm:vinxi",
-        "type": "static"
-      },
-      {
-        "source": "page-app",
-        "target": "npm:vite",
         "type": "static"
       },
       {
