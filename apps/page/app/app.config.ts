@@ -8,7 +8,6 @@ function fixVanillaExtract(): Plugin {
   return {
     name: 'fix-vanilla-extract',
     renderChunk(code) {
-      console.log(process.cwd())
       if (code.includes(basePath)) {
         return code.replaceAll(basePath, '')
       }

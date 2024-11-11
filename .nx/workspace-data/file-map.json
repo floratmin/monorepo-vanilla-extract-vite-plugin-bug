@@ -37,20 +37,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".eslintignore",
-        "hash": "2627861594816618330"
-      },
-      {
-        "file": "vitest.workspace.ts",
-        "hash": "7870362608836821141"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "12060734207993778635"
+        "file": "configs/typescript/tsconfig.jsx.app.json",
+        "hash": "1564029033576357137"
       },
       {
         "file": "configs/typescript/tsconfig.jsx.spec.json",
@@ -61,48 +49,60 @@
         "hash": "11876684090962387098"
       },
       {
-        "file": ".gitignore",
-        "hash": "869031975802381494"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "2627861594816618330"
-      },
-      {
-        "file": "configs/typescript/tsconfig.jsx.app.json",
-        "hash": "1564029033576357137"
+        "file": "tsconfig.base.json",
+        "hash": "7003804569943382873"
       },
       {
         "file": ".editorconfig",
         "hash": "5443105041930014821"
       },
       {
-        "file": "package.json",
-        "hash": "18399412727394378021"
+        "file": "vitest.workspace.ts",
+        "hash": "7870362608836821141"
       },
       {
-        "file": ".npmrc",
-        "hash": "1880664178033616490"
+        "file": ".gitignore",
+        "hash": "869031975802381494"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "2627861594816618330"
       },
       {
         "file": "configs/typescript/tsconfig.jsx.json",
         "hash": "8022831394158746812"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "7003804569943382873"
+        "file": "package.json",
+        "hash": "18399412727394378021"
       },
       {
         "file": ".eslintrc.json",
         "hash": "13308668320693420279"
       },
       {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
         "file": "README.md",
         "hash": "6800693425928675652"
+      },
+      {
+        "file": ".npmrc",
+        "hash": "1880664178033616490"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "2627861594816618330"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "12060734207993778635"
       },
       {
         "file": "nx.json",
@@ -183,7 +183,7 @@
         },
         {
           "file": "apps/page/app/app.config.ts",
-          "hash": "10980621156506109473",
+          "hash": "4383670264508651790",
           "deps": [
             "npm:@solidjs/start",
             "npm:@nx/vite",
